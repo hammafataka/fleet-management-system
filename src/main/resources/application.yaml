@@ -1,0 +1,13 @@
+spring:
+
+  # Database Setting
+  datasource:
+    url: jdbc:mysql://localhost:3306/fleet-management-system
+    username: root
+    password: root
+  # Database attributes
+  jpa:
+    properties:
+      hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: update
